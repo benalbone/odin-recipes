@@ -1,0 +1,22 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1#heading-main {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    width: 15%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: violet;
+}
+
+img.odin-main {
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    /* min-width: 100%;
+    min-height: 100%; */
+}
