@@ -1,5 +1,12 @@
+@import "./colors/nord/src/nord.css";
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--nord0);
+    color: var(--nord10);
 }
 
 h1#heading-main {
@@ -8,9 +15,9 @@ h1#heading-main {
     text-align: center;
     margin: auto;
     width: 15%;
-    border: 3px solid black;
+    border: 3px var(--nord8);
     padding: 10px;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 img.odin-main {
@@ -19,4 +26,8 @@ img.odin-main {
     width: 100%;
     /* min-width: 100%;
     min-height: 100%; */
+}
+
+#list-items {
+    color: var(--nord6);
 }
