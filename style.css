@@ -10,24 +10,44 @@ body {
 }
 
 h1#heading-main {
+    text-shadow: 2px 2px var(--nord3);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text
     font-weight: 800;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
     margin: auto;
     width: 15%;
-    border: 3px var(--nord8);
+    border: 3px;
     padding: 10px;
-    /* background-color: violet; */
 }
 
 img.odin-main {
+    border: 3px solid var(--nord10);
     padding: 10px;
-    height: auto;
-    width: 100%;
-    /* min-width: 100%;
-    min-height: 100%; */
+    opacity: 50%;
+    width:95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#list-items {
-    color: var(--nord6);
+ul {
+    font-size: 26px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    color: var(--nord3);
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+a {
+    color: var(--nord12);
+    text-decoration: none;
+    text-transform: uppercase;
 }
